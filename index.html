@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>AGT Portfolio</title>
+  </head>
+
+  <body
+    class="flex flex-col items-center w-full min-h-screen bg-gradient-to-tl from-[#bf879b] to-white bg-no-repeat"
+  >
+    <header class="flex w-full bg-white justify-center shadow-md">
+      <div
+        class="flex justify-between items-center w-full max-w-[1920px] py-3 px-6"
+      >
+        <a
+          href="./index.html"
+          class="text-[lightpink] hover:bg-[lightpink] hover:text-white transition rounded-lg px-1 py-1.5"
+        >
+          <h1 class="text-3xl md:text-4xl font-bold">AGT</h1>
+        </a>
+
+        <nav class="flex gap-x-4">
+          <a
+            href="#skills"
+            class="text-neutral-900 w-fit text-sm md:text-base cursor-pointer after:block after:border after:border-[palevioletred] after:transition-transform after:duration-300 after:scale-x-0 after:hover:scale-x-100 after:origin-left"
+            >Skills</a
+          >
+          <a
+            href="#experience"
+            class="text-neutral-900 w-fit text-sm md:text-base cursor-pointer after:block after:border after:border-[palevioletred] after:transition-transform after:duration-300 after:scale-x-0 after:hover:scale-x-100 after:origin-left"
+            >Experience</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <section class="flex w-full justify-center items-center">
+      <div
+        class="min-h-[calc(100vh_-_76px)] flex flex-col lg:flex-row items-center w-full max-w-[1920px] relative"
+      >
+        <div
+          class="gap-y-2 lg:gap-y-4 font-[Jost] font-medium lg:h-full flex flex-col justify-center absolute top-[10vh] lg:top-0 lg:left-[calc(10vw)] w-72"
+        >
+          <h1 class="text-xl text-center lg:text-left md:text-2xl lg:text-3xl">
+            desginer.
+          </h1>
+          <h2
+            class="text-base text-center lg:text-left md:text-lg lg:text-xl leadning-relaxed md:leading-relaxed lg:leading-relaxed"
+          >
+            Designing beautiful and user-friendly interfaces.
+          </h2>
+        </div>
+
+        <div class="h-[calc(100vh_-_76px)] w-full">
+          <iframe
+            class="w-full h-[calc(100vh_-_76px)]"
+            src="https://my.spline.design/devicemodelcopycopy-e4907027518022b62b7b6e595c07c2ca/"
+            frameborder="0"
+          ></iframe>
+        </div>
+
+        <div
+          class="gap-y-2 lg:gap-y-4 font-medium lg:h-full flex flex-col justify-center absolute bottom-[10vh] lg:bottom-0 lg:right-[calc(10vw)] w-72"
+        >
+          <h1 class="text-xl text-center lg:text-left md:text-2xl lg:text-3xl">
+            &lt;coder&gt;
+          </h1>
+          <h2
+            class="text-sm text-center lg:text-left md:text-base lg:text-lg leadning-normal md:leading-normal lg:leading-normal"
+          >
+            Software Developer with focus to write efficient and clean codes.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="flex flex-col items-center gap-y-8 md:gap-y-16">
+      <h2
+        class="font-medium text-2xl md:text-3xl px-6 py-2 rounded-xl bg-white my-8"
+      >
+        Skills
+      </h2>
+      <div
+        class="flex flex-row flex-wrap justify-center w-full gap-y-10 gap-x-8 px-4 md:px-6 md:max-w-3xl"
+      >
+        <div class="flex flex-col items-center gap-y-4">
+          <img class="h-[4.5rem] md:h-28" src="./img/js.png" />
+          <h2 class="text-sm md:text-base font-medium">JavaScript</h2>
+        </div>
+        <div class="flex flex-col items-center gap-y-4">
+          <img class="h-[4.5rem] md:h-28" src="./img/html.png" />
+          <h2 class="text-sm md:text-base font-medium">HTML</h2>
+        </div>
+        <div class="flex flex-col items-center gap-y-4">
+          <img class="h-[4.5rem] md:h-28" src="./img/css.png" />
+          <h2 class="text-sm md:text-base font-medium">CSS</h2>
+        </div>
+        <div class="flex flex-col items-center gap-y-4">
+          <img class="h-[4.5rem] md:h-28" src="./img/react.png" />
+          <h2 class="text-sm md:text-base font-medium">React</h2>
+        </div>
+        <div class="flex flex-col items-center gap-y-4">
+          <img class="h-[4.5rem] md:h-28" src="./img/cpp.png" />
+          <h2 class="text-sm md:text-base font-medium">C++</h2>
+        </div>
+        <div class="flex flex-col items-center gap-y-4">
+          <img class="h-[4.5rem] md:h-28" src="./img/figma.png" />
+          <h2 class="text-sm md:text-base font-medium">Figma</h2>
+        </div>
+        <div class="flex flex-col items-center gap-y-4">
+          <img class="h-[4.5rem] md:h-28" src="./img/illustrator.png" />
+          <h2 class="text-sm md:text-base font-medium">Illustrator</h2>
+        </div>
+        <div class="flex flex-col items-center gap-y-4">
+          <img class="h-[4.5rem] md:h-28" src="./img/photoshop.png" />
+          <h2 class="text-sm md:text-base font-medium">Photoshop</h2>
+        </div>
+      </div>
+    </section>
+    <section
+      id="experience"
+      class="flex flex-col items-center gap-y-8 md:gap-y-16 mt-20"
+    >
+      <h2
+        class="font-medium text-2xl md:text-3xl px-6 py-2 rounded-xl bg-white my-8"
+      >
+        Experience
+      </h2>
+      <div
+        class="flex flex-wrap w-full lg:max-w-[1920px] mb-16 gap-8 justify-center px-6 sm:px-0"
+      >
+        <div
+          class="flex flex-col gap-y-2 md:gap-y-3 w-full sm:max-w-xl md:max-w-2xl lg:max-w-3xl bg-white bg-opacity-20 rounded-lg shadow-md border border-white border-opacity-30 p-5 transition-all duration-450"
+        >
+          <div class="flex flex-row justify-between items-center gap-x-2">
+            <div class="flex flex-col gap-y-1.5 md:gap-y-2">
+              <h2 class="text-lg md:text-[1.375rem] text-[#6e496c] font-medium">
+                Student Worker
+              </h2>
+              <p class="text-sm md:text-base text-neutral-500 font-medium">
+                DVC International Student Office | Pleasant Hill, CA
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img class="w-14 h-14 flex-shrink-0" src="./img/dvc.png" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-1">
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Spearheaded the design and execution of targeted advertisements
+                for key events including the official Indonesian alumni event,
+                Halloween, and Transfer Day, enhancing event visibility and
+                participation rates.
+              </p>
+            </div>
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Became the first point of contact for inquiries, providing
+                immediate assistance and fostering a welcoming atmosphere for
+                over 300 international students.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col gap-y-2 md:gap-y-3 w-full sm:max-w-xl md:max-w-2xl lg:max-w-3xl bg-white bg-opacity-20 rounded-lg shadow-md border border-white border-opacity-30 p-5 transition-all duration-450"
+        >
+          <div class="flex flex-row justify-between items-center gap-x-2">
+            <div class="flex flex-col gap-y-1.5 md:gap-y-2">
+              <h2 class="text-lg md:text-[1.375rem] text-[#6e496c] font-medium">
+                Software Developer Intern
+              </h2>
+              <p class="text-sm md:text-base text-neutral-500 font-medium">
+                PT Sehat Bersama Sejahtera | Indonesia
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img class="w-14 h-14 flex-shrink-0" src="./img/sbs.png" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-1">
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Collaborated in a team to design and deploy a robust
+                Android-based inventory tracking application, enhancing stock
+                accuracy by 75% and optimizing operational efficiency.
+              </p>
+            </div>
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Design and integrated advanced algorithms and data structures
+                into the inventory application, achieving a 2x performance boost
+                and scalability for future expansion.
+              </p>
+            </div>
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Collaborated with various departments to understand their
+                specific needs and integrated feedback, ensuring the inventory
+                application to meet diverse operational needs and exceed company
+                standards.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-y-2 md:gap-y-3 w-full sm:max-w-xl md:max-w-2xl lg:max-w-3xl bg-white bg-opacity-20 rounded-lg shadow-md border border-white border-opacity-30 p-5 transition-all duration-450"
+        >
+          <div class="flex flex-row justify-between items-center gap-x-2">
+            <div class="flex flex-col gap-y-1.5 md:gap-y-2">
+              <h2 class="text-lg md:text-[1.375rem] text-[#6e496c] font-medium">
+                Digital Marketing Intern
+              </h2>
+              <p class="text-sm md:text-base text-neutral-500 font-medium">
+                CV Makmur Jaya Abadi | Indonesia
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img class="w-14 h-14 flex-shrink-0" src="./img/mja.png" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-1">
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Spearheaded a comprehensive digital branding strategies,
+                including website revamp and SEO strategies, catapulting online
+                visibility and contributing to a 45% surge in online sales.
+              </p>
+            </div>
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Leveraged strategic placements in prominent online marketplaces,
+                amplifying brand exposure and propelling a 45% growth in online
+                sales within 6 months.
+              </p>
+            </div>
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Directed a dynamic team of content designers and customer
+                service specialists, boosting social media followers to 7,000+
+                and escalating website traffic by 20%.
+              </p>
+            </div>
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Utilized Google Analytics to analyze website traffic patterns
+                and user engagement, driving a targeted content strategy that
+                increased average session duration by 35%.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-y-2 md:gap-y-3 w-full sm:max-w-xl md:max-w-2xl lg:max-w-3xl bg-white bg-opacity-20 rounded-lg shadow-md border border-white border-opacity-30 p-5 transition-all duration-450"
+        >
+          <div class="flex flex-row justify-between items-center gap-x-2">
+            <div class="flex flex-col gap-y-1.5 md:gap-y-2">
+              <h2 class="text-lg md:text-[1.375rem] text-[#6e496c] font-medium">
+                Vice President of Design
+              </h2>
+              <p class="text-sm md:text-base text-neutral-500 font-medium">
+                Code The Change Club | Diablo Valley College
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img class="w-14 h-14 flex-shrink-0" src="./img/ctc.png" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-1">
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Created and executed strategic promotional campaigns for a new
+                computer science club, achieving a 80% increase in active
+                membership within the first year.
+              </p>
+            </div>
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Lead a dedicated team of 2 marketing designers in designing
+                compelling social media advertisements, amassing over 200 active
+                Instagram followers and bolstering online engagement.
+              </p>
+            </div>
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Ensured a smooth and user-friendly interface for our website
+                projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-y-2 md:gap-y-3 w-full sm:max-w-xl md:max-w-2xl lg:max-w-3xl bg-white bg-opacity-20 rounded-lg shadow-md border border-white border-opacity-30 p-5 transition-all duration-450"
+        >
+          <div class="flex flex-row justify-between items-center gap-x-2">
+            <div class="flex flex-col gap-y-1.5 md:gap-y-2">
+              <h2 class="text-lg md:text-[1.375rem] text-[#6e496c] font-medium">
+                Vice President
+              </h2>
+              <p class="text-sm md:text-base text-neutral-500 font-medium">
+                IndoDVC Club | Diablo Valley College
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img class="w-14 h-14 flex-shrink-0" src="./img/indodvc.png" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-1">
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Lead a team of 13 people with vision to make everyone feels like
+                home in foreign country.
+              </p>
+            </div>
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Planned events from scratch to execution, including tasks
+                distributions. We held mentorship orientation program,
+                Thanksgiving Trip, Sport Competition, and fundraising, resulting
+                in active participants increased by 60%.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-y-2 md:gap-y-3 w-full sm:max-w-xl md:max-w-2xl lg:max-w-3xl bg-white bg-opacity-20 rounded-lg shadow-md border border-white border-opacity-30 p-5 transition-all duration-450"
+        >
+          <div class="flex flex-row justify-between items-center gap-x-2">
+            <div class="flex flex-col gap-y-1.5 md:gap-y-2">
+              <h2 class="text-lg md:text-[1.375rem] text-[#6e496c] font-medium">
+                Media and Marketing Director
+              </h2>
+              <p class="text-sm md:text-base text-neutral-500 font-medium">
+                Project Bracket Club | Diablo Valley College
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <img class="w-14 h-14 flex-shrink-0" src="./img/pb.png" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-y-1">
+            <div class="flex gap-x-4">
+              <div
+                class="mt-2 w-2 h-2 rounded-full bg-black flex-shrink-0"
+              ></div>
+              <p class="text-sm md:text-base">
+                Designed and executed engaging social media content, resulting
+                in 30% increase in club active membership
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      id="backdrop"
+      onclick="handleContactSidebar()"
+      style="
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+      "
+    ></div>
+    <div
+      id="sidebar-contact"
+      class="fixed h-screen w-full sm:max-w-[480px] p-4 sm:p-6 bg-white transition duration-[250ms]"
+      style="
+        transform: translateX(calc(480px + 32px));
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1000000;
+      "
+    >
+      <div class="w-6 h-6 cursor-pointer" onclick="handleContactSidebar()">
+        <img src="./img/cross.png" class="w-full h-full" />
+      </div>
+      <div class="w-full mt-8">
+        <a
+          href="http://www.linkedin.com/in/agathasantoso"
+          class="flex items-center my-5 gap-x-3 md:gap-x-6 hover:text-[lightpink] transition"
+        >
+          <img src="./img/linkedin.png" class="w-10 h-10 md:w-14 md:h-14" />
+          <p class="text-sm md:text-xl">LinkedIn</p>
+        </a>
+        <a
+          href="mailto:agatha.felisitas@gmail.com"
+          class="flex items-center my-5 gap-x-3 md:gap-x-6 hover:text-[lightpink] transition"
+        >
+          <img src="./img/mail.png" class="w-10 h-10 md:w-14 md:h-14" />
+          <p class="text-sm md:text-xl">agatha.felisitas@gmail.com</p>
+        </a>
+        <a
+          href="https://github.com/agathafels"
+          class="flex items-center my-5 gap-x-3 md:gap-x-6 hover:text-[lightpink] transition"
+        >
+          <img src="./img/github.png" class="w-10 h-10 md:w-14 md:h-14" />
+          <p class="text-sm md:text-xl">GitHub</p>
+        </a>
+      </div>
+    </div>
+    <div class="fixed bottom-4 right-6" onclick="handleContactSidebar()">
+      <button>
+        <img width="160" src="./img/contact-me.png" />
+      </button>
+    </div>
+    <script>
+      const sidebarContactRef = document.getElementById("sidebar-contact");
+      const backdropRef = document.getElementById("backdrop");
+
+      function handleContactSidebar() {
+        const isShow = sidebarContactRef.style.transform === "translateX(0px)";
+
+        sidebarContactRef.style.transform = isShow
+          ? "translateX(calc(480px + 32px))"
+          : "translateX(0px)";
+        backdropRef.style.display = isShow ? "none" : "block";
+      }
+    </script>
+  </body>
+</html>
